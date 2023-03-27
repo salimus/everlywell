@@ -1,0 +1,21 @@
+{
+  "name": "everlywell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Salim Q",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.8.1"
+  }
+}
